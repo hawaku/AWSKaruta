@@ -2,7 +2,7 @@
 <html lang="ja">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, user-scalable=no" >
-<head><title>AWS Karuta Ver.20150322</title></head>
+<head><title>AWS Karuta Ver.20151212</title></head>
 <style type="text/css"><!--
 button {
 	font-size: 300%;
@@ -36,7 +36,7 @@ img {
 <body onload="init();fwd();">
 <script>
 function $(id){return document.getElementById(id);};
-var mx = 63;
+var mx = 82;
 var ar = new Array();
 var rnd, unq, seq;
 var currentNo;
@@ -158,6 +158,25 @@ function dispCurrent() {
 <div id="f61">エンタープライズのためのフルマネージド型のセキュアな文書保存と共有サービス。ユーザーは好みのデバイスから、いつでもどこでもクラウド上に保存されているファイルにアクセスし、表示してフィードバックを残すことがでる。当初はAmazon Zocaloという名称で発表された。 -- Amazon WorkDocs</div>
 <div id="f62">エンタープライズのためのフルマネージド型のセキュアなメールおよびカレンダーサービス。既存の Active DirectoryやAWS Directory Serviceでユーザ情報を管理することも可能。Microsoft Outlook、Webブラウザ、iOS および Android ネイティブの Eメールアプリケーションを使用して、E メール、連絡先、カレンダーにシームレスにアクセスできる。 -- Amazon WorkMail</div>
 
+<div id="f63">予測アプリケーションを構築できる機械サービス。既存データからパターンを発見し、新しいデータから予測を生成する。 -- Amazon Machine Learning</div>
+<div id="f64">API の配布、保守、監視、保護が行える、全面的に管理されたサービス。バックエンドからのデータ、ビジネスロジック、機能にアクセスする、アプリケーションの玄関として振る舞う API を作成できる。 -- Amazon API Gateway</div>
+<div id="f65">Docker コンテナをサポートするコンテナ管理サービス。Amazon EC2 インスタンスのマネージド型クラスターでのアプリケーションの実行を容易にする。 -- Amazon EC2 Container Service (ECS)</div>
+<div id="f66">企業が安全で高度にスケーラブルなプライベート Git リポジトリをホストすることを容易にする、完全マネージド型のソース管理サービス。 -- AWS CodeCommit</div>
+<div id="f67">迅速で信頼性の高いアプリケーションのアップデートを可能にする継続的デリバリーサービス。コードが変更されるたびに、定義したリリースプロセスモデルに基づいて、コードを構築、テスト、デプロイができる。 -- AWS CodePipeline</div>
+<div id="f68">ストレージ容量を自動的に拡大および縮小できるNetwork File System バージョン4 プロトコルをサポートしたファイルストレージサービス。 -- Amazon Elastic File System (EFS)</div>
+<div id="f69">IT管理者が内部のユーザに対して、一貫性と統制を管理された形でAWS上のサービスを提供するためのツール。管理者は、各アプリケーションまたは AWS リソースにアクセスできるユーザーを制御して、組織のビジネスポリシーへのコンプライアンスを実施できる。 -- AWS Service Catalog</div>
+<div id="f70">Docker コンテナイメージを簡単に保存、管理、デプロイできる完全マネージド型の Docker コンテナレジストリ。 Amazon EC2 Container Service (ECS) に統合されている。-- Amazon EC2 Container Registry (ECR)</div>
+<div id="f71">SPICE エンジンを活用したビジネスインテリジェンス (BI) サービス。可視化の構築、アドホック分析の実行およびデータからビジネスインサイトを迅速に得ることを容易とする。 -- Amazon QuickSight</div>
+<div id="f72">Elasticsearchクラスターを簡単にデプロイ、操作、スケーリングできるようにするマネージドサービス。 -- Amazon Elasticsearch Service</div>
+<div id="f73">安全なキー管理に対する米国政府標準規格に適合するように設計/検証されたハードウェアセキュリティモジュールで暗号キーを保護することができる。  -- AWS CloudHSM</div>
+<div id="f74">データの暗号化に使用する暗号化キーを簡単に作成および管理できるマネージドサービス -- AWS Key Management Service (KMS)</div>
+<div id="f75">定義する条件に基づきウェブリクエストを許可、ブロック、または監視 (カウント) するルールを設定し、ウェブアプリケーションを攻撃から保護するのを助けるウェブアプリケーションファイアウォール。 -- AWS WAF (Web Application Firewall)</div>
+<div id="f76">自動的にアプリケーションを評価し、脆弱性やベストプラクティスからの逸脱がないかどうかを確認するセキュリティ評価サービス -- Amazon Inspector</div>
+<div id="f77">Oracle から Oracle のような同種のデータベース間の移行や、Oracle から Amazon Aurora または Microsoft SQL から MySQL といった異なるデータベースプラットフォーム間のデータ移行ツール -- AWS Database Migration Service</div>
+<div id="f78">接続されたデバイスが簡単かつ安全にクラウドアプリケーションやその他のデバイスとやり取りできるマネージド型クラウドプラットフォーム。数十億のデバイスと数兆のメッセージをAWSエンドポイントおよび他のデバイスに確実かつ安全に処理しルーティングする。 -- AWS IoT</div>
+<div id="f79">モバイルアプリケーションを構築するための新しいコンソール。ユーザー認証、データストレージ、バックエンドのロジック、プッシュ通知、コンテンツ配信、および分析などの機能をアプリケーションを構築できる。-- AWS Mobile Hub</div>
+<div id="f80">物理的な移動のためのセキュアなストレージアプライアンスを使用して、テラバイトからペタバイト規模のデータを AWS内外へデータ転送するソリューション。 -- AWS Import/Export Snowball</div>
+<div id="f81">Android、iOS および Fire OS アプリケーションのテストサービス -- AWS Device Farm</div>
 
 
 <div id="i0"><img src="img/EC2.png" /></div>
@@ -225,6 +244,26 @@ function dispCurrent() {
 <div id="i60"><img src="img/Trusted Advisor.png" /></div>
 <div id="i61"><img src="img/WorkDocs.png" /></div>
 <div id="i62"><img src="img/WorkMail.png" /></div>
+
+<div id="i63"><img src="img/ML.png" /></div>
+<div id="i64"><img src="img/APIGateway.png" /></div>
+<div id="i65"><img src="img/ECS.png" /></div>
+<div id="i66"><img src="img/CodeCommit.png" /></div>
+<div id="i67"><img src="img/CodePipeline.png" /></div>
+<div id="i68"><img src="img/EFS.png" /></div>
+<div id="i69"><img src="img/ServiceCatalog.png" /></div>
+<div id="i70"><img src="img/ECR.png" /></div>
+<div id="i71"><img src="img/QuickSight.png" /></div>
+<div id="i72"><img src="img/ES.png" /></div>
+<div id="i73"><img src="img/CloudHSM.png" /></div>
+<div id="i74"><img src="img/KMS.png" /></div>
+<div id="i75"><img src="img/WAF.png" /></div>
+<div id="i76"><img src="img/Inspector.png" /></div>
+<div id="i77"><img src="img/DatabaseMigrationService.png" /></div>
+<div id="i78"><img src="img/IOT.png" /></div>
+<div id="i79"><img src="img/MobileHub.png" /></div>
+<div id="i80"><img src="img/Snowball.png" /></div>
+<div id="i81"><img src="img/DeviceFarm.png" /></div>
 
 <!--
 -->
