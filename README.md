@@ -1,5 +1,7 @@
 # AWSKaruta
 
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
+
 50を超すAWSのサービスや機能を楽しみ遊びながら自然と覚えて行けるゲームです。
 AWS認定試験、AWS認定ソリューションアーキテクト- アソシエイトレベルの基礎知識の勉強にもきっと、おそらく、多分役立つこと間違いありません。
 HTML5カルタが発祥とも言われています。
